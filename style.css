@@ -28,7 +28,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin: 2rem 0;
 }
 header h1 {
@@ -157,33 +156,40 @@ header img {
 
 /* <product-text> */
 
+.product-header__text {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.product-header__text h2 {
+    /* padding-left: 1rem; */
+    font-size: 1.8rem;
+}
+
+.product-description__text {
+    padding: 1rem 0rem 0.5rem 0rem;
+}
+.product-description p {
+    font-size: 1.4rem;
+    /*   padding-left: 1rem; */
+}
 .product__text {
     padding: 0 2rem;
     width: 100%;
 }
-
 .product__text h2 {
     font-size: 1.8rem;
 }
-
+.product-header__text .product-price {
+    font-size: 1.8rem;
+}
 .product__text p {
     font-size: 1.4rem;
 }
 
 /* </product-text> */
 
-.product-header__text {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.product-description__text {
-    padding-top: 1rem;
-}
-.product-price {
-    font-weight: bold;
-    font-size: 1.4rem;
-}
 /*  <-- </Products> -->  */
 
 /*  <-- <WthatsApp> -->  */
@@ -242,7 +248,7 @@ footer h2 {
 .redes-sociales {
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem 2rem 2rem 0rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 .instagram img {
     width: 45px;
@@ -275,4 +281,80 @@ footer h2 {
 
 .creditos a:visited {
     color: orange;
+}
+
+/* <-- Queries --> */
+
+@media screen and (min-width: 768px) {
+    .product-container {
+        max-width: 80%;
+    }
+
+    header p {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+    header img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        border: 4px solid red;
+    }
+    /* <product-text> */
+
+    .product__text h2 {
+        font-size: 2.5rem;
+    }
+    .product-header__text h2 {
+        font-size: 2rem;
+    }
+
+    .product-description__text {
+        padding: 1rem 0rem 0.5rem 0rem;
+    }
+    .product-description p {
+        font-size: 1.6rem;
+        padding-top: 1rem;
+    }
+    .product__text p {
+        font-size: 1.6rem;
+    }
+    /* <--footer --> */
+    footer h2 {
+        font-size: 3rem;
+    }
+    .footer-info p {
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+    }
+
+    .redes-sociales {
+        justify-content: center;
+    }
+    .instagram {
+        padding: 0 3rem;
+    }
+    .facebook {
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .product-container {
+        max-width: 60%;
+    }
+
+    /* <--footer --> */
+    footer h2 {
+        font-size: 3rem;
+    }
+    .redes-sociales {
+        justify-content: center;
+    }
+    .instagram {
+        padding: 0 3rem;
+    }
+    .facebook {
+        padding: 0 3rem;
+    }
 }
