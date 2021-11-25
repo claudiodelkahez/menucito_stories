@@ -8,6 +8,7 @@ html {
     font-size: 62.5%;
     scroll-padding: 100px 0 0 0;
     scroll-behavior: smooth;
+   
 }
 ::-webkit-scrollbar {
     display: none;
@@ -21,6 +22,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #000;
+    color: #fff;
 }
 a {
     text-decoration: none;
@@ -42,7 +45,8 @@ header h1 {
 
 header p {
     font-size: 1.2rem;
-    color: #222;
+    color: #fff;
+
 }
 header img {
     height: 150px;
@@ -53,6 +57,7 @@ header img {
 /*  <-- </Header> -->  */
 
 /*  <-- <Stories> -->  */
+
 .stories-container {
     height: 100px;
     max-width: 100%;
@@ -63,7 +68,7 @@ header img {
     position: -webkit-sticky;
     position: sticky;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
-
+   
     top: 0;
 }
 .stories {
@@ -72,7 +77,8 @@ header img {
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    background: #fff;
+    background: #000;
+    color: #fff;
     padding: 0 2rem;
     overflow-y: hidden;
 }
@@ -118,7 +124,8 @@ header img {
     text-decoration: none;
     font-size: 1.2rem;
     text-align: center;
-    color: #222;
+    background: #000;
+    color: #fff;
 }
 /*  <-- </Stories> -->  */
 /*  <-- <slider> -->  */
@@ -144,7 +151,7 @@ ul.slider li {
     opacity: 0;
     width: inherit;
     height: inherit;
-    background: rgb(255, 255, 255);
+   
     transition: opacity 0.2s;
 }
 ul.slider h2 {
@@ -416,6 +423,7 @@ footer h2 {
 @media screen and (min-width: 1024px) {
     .product-container {
         max-width: 60%;
+
     }
 
     /* <--footer --> */
@@ -434,7 +442,6 @@ footer h2 {
 
     .stories-container {
         width: 100vw;
-        background: #fff;
         box-shadow: none;
     }
     .flecha-izquierda {
