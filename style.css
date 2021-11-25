@@ -58,7 +58,6 @@ header img {
     flex-direction: row;
     position: -webkit-sticky;
     position: sticky;
-    background: #fff;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 
     top: 0;
@@ -340,6 +339,8 @@ footer h2 {
 }
 
 @media screen and (min-width: 1024px) {
+
+   
     .product-container {
         max-width: 60%;
     }
@@ -357,4 +358,19 @@ footer h2 {
     .facebook {
         padding: 0 3rem;
     }
+
+    .stories-container {
+        width: 100vw;
+        background: #fff;
+        box-shadow: none;
+    }
+    .flecha-izquierda {
+        display: none;
+
+    }
+  
+    .flecha-derecha {
+        display: none;
+    }
+   
 }
