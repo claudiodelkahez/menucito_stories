@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Menucito | E</title>
         <link rel="stylesheet" href="./style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -29,7 +29,8 @@
             <p>🛵 Envíos sin cargo</p>
             <p>💳 Efectivo / MercadoPago</p>
         </header>
-        <div class="contenedor-stories">
+        <!-- Stories -->
+        <section class="stories-container">
             <div class="stories-flechas_izquierda">
                 <img
                     class="flecha-izquierda"
@@ -38,6 +39,10 @@
                 />
             </div>
             <div class="stories" id="stories">
+                <a href="#promociones">
+                    <img src="./images/pizza.jpg" alt="" />
+                    <p>Promociones</p></a
+                >
                 <a href="#pizzas">
                     <img src="./images/pizza.jpg" alt="" />
                     <p>Pizzas</p></a
@@ -74,10 +79,6 @@
                     <img src="./images/pizza.jpg" alt="" />
                     <p>Tortillas</p></a
                 >
-                <a href="#promociones">
-                    <img src="./images/pizza.jpg" alt="" />
-                    <p>Promociones</p></a
-                >
             </div>
             <div class="stories-flechas_derecha">
                 <img
@@ -86,790 +87,820 @@
                     alt=""
                 />
             </div>
-        </div>
-        <div class="product-container">
-            <div id="promociones" class="product-category">
-                <h1>Promociones</h1>
-            </div>
-
-            <div class="product">
-                <img src="./images/pizza.jpg" alt="" />
-
-                <div class="product-description">
-                    <div class="product-header__text">
-                        <h2>PROMO 1</h2>
-                        <p class="product-price">$$1170</p>
-                    </div>
-
-                    <p class="product-details">1 Muzza + 1 Jamon y Morron</p>
+        </section>
+        <!-- Products -->
+        <section class="product-container">
+            <!-- Promociones -->
+            <article>
+                <div id="promociones" class="product-category">
+                    <h1>Promociones</h1>
                 </div>
-            </div>
-            <div class="product">
-                <img src="./images/pizza.jpg" alt="" />
 
-                <div class="product-description">
-                    <div class="product-header__text">
-                        <h2>PROMO 2</h2>
-                        <p class="product-price">$1100</p>
+                <div class="product">
+                    <img src="./images/pizza.jpg" alt="" />
+
+                    <div class="product-description">
+                        <div class="product-header__text">
+                            <h2>PROMO 1</h2>
+                            <p class="product-price">$1170</p>
+                        </div>
+
+                        <p class="product-details">
+                            1 Muzza + 1 Jamon y Morron
+                        </p>
                     </div>
-
-                    <p>1 Muzza + 1 Napolitana</p>
                 </div>
-            </div>
-            <div class="product">
-                <img src="./images/pizza.jpg" alt="" />
+                <div class="product">
+                    <img src="./images/pizza.jpg" alt="" />
 
-                <div class="product-description">
-                    <div class="product-header__text">
-                        <h2>PROMO 3</h2>
-                        <p class="product-price">$930</p>
+                    <div class="product-description">
+                        <div class="product-header__text">
+                            <h2>PROMO 2</h2>
+                            <p class="product-price">$1100</p>
+                        </div>
+
+                        <p>1 Muzza + 1 Napolitana</p>
                     </div>
-
-                    <p>1 Muzza + 6 empanadas</p>
                 </div>
-            </div>
-            <div class="product">
-                <img src="./images/pizza.jpg" alt="" />
+                <div class="product">
+                    <img src="./images/pizza.jpg" alt="" />
 
-                <div class="product-description">
-                    <div class="product-header__text">
-                        <h2>PROMO 4</h2>
-                        <p class="product-price">$1450</p>
+                    <div class="product-description">
+                        <div class="product-header__text">
+                            <h2>PROMO 3</h2>
+                            <p class="product-price">$930</p>
+                        </div>
+
+                        <p>1 Muzza + 6 empanadas</p>
                     </div>
-
-                    <p>2 Muzzas + 6 empanadas</p>
                 </div>
-            </div>
-            <div class="product">
-                <img src="./images/pizza.jpg" alt="" />
+                <div class="product">
+                    <img src="./images/pizza.jpg" alt="" />
 
-                <div class="product-description">
+                    <div class="product-description">
+                        <div class="product-header__text">
+                            <h2>PROMO 4</h2>
+                            <p class="product-price">$1450</p>
+                        </div>
+
+                        <p>2 Muzzas + 6 empanadas</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./images/pizza.jpg" alt="" />
+
+                    <div class="product-description">
+                        <div class="product-header__text">
+                            <h2>PROMO 5</h2>
+                            <p class="product-price">$1500</p>
+                        </div>
+
+                        <p>3 Muzzarellas</p>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="./images/pizza.jpg" alt="" />
+
+                    <div class="product-description">
+                        <div class="product-header__text">
+                            <h2>PROMO 6</h2>
+                            <p class="product-price">$1270</p>
+                        </div>
+
+                        <p>12 empanadas + 1 muzza</p>
+                    </div>
+                </div>
+            </article>
+            <!-- Pizzas -->
+            <article>
+                <div id="pizzas" class="product-category">
+                    <h1>Pizzas</h1>
+                </div>
+
+                <div class="product__text">
                     <div class="product-header__text">
-                        <h2>PROMO 5</h2>
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$520</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Morrones</h2>
+                        <p class="product-price">$630</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate y morrones</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Jamón</h2>
+                        <p class="product-price">$630</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate y Jamón</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Napolitana</h2>
+                        <p class="product-price">$630</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            muzza, salsa de tomate,tomate, ajo, perejil,
+                            provolone
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Calabresa</h2>
+                        <p class="product-price">$700</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate y longaniza</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Provolone</h2>
+                        <p class="product-price">$700</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate y provolone</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Roquefort</h2>
+                        <p class="product-price">$700</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate y roquefort.</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Jamón y Morrones</h2>
+                        <p class="product-price">$700</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate, jamón y morrones</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Brasilera</h2>
+                        <p class="product-price">$900</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate, jamón y ananá</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Champignones</h2>
+                        <p class="product-price">$830</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomat y champignones</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Pizza Nova</h2>
+                        <p class="product-price">$900</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            muzza, salsa de tomate, morron, huevo duro, jamón,
+                            palmitos y salsa golf
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Palmitos</h2>
+                        <p class="product-price">$830</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate, palmitos y salsa golf</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Veneciana</h2>
+                        <p class="product-price">$680</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, jamón y tomates</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Vegetales</h2>
+                        <p class="product-price">$780</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            muzza, salsa de tomate,champignones, cebolla,
+                            morrones, albahaca
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Cuatro quesos</h2>
+                        <p class="product-price">$730</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, roquefrt, sardo y provolone</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Capresse</h2>
+                        <p class="product-price">$680</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, salsa de tomate, albahaca y provolone</p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Fugazza americana</h2>
+                        <p class="product-price">$630</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>muzza, cebolla y ají</p>
+                    </div>
+                </div>
+            </article>
+            <!-- Calzones -->
+            <article>
+                <div id="calzones" class="product-category">
+                    <h1>Calzones</h1>
+                </div>
+
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
                         <p class="product-price">$1500</p>
                     </div>
-
-                    <p>3 Muzzarellas</p>
-                </div>
-            </div>
-            <div class="product">
-                <img src="./images/pizza.jpg" alt="" />
-
-                <div class="product-description">
-                    <div class="product-header__text">
-                        <h2>PROMO 6</h2>
-                        <p class="product-price">$1270</p>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
                     </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae. Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Molestiae qui omnis
+                            rerum error corporis ratione minus sint at libero
+                            reprehenderit?
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Fugazzetas -->
+            <article>
+                <div id="fugazzetas" class="product-category">
+                    <h1>Fugazzetas</h1>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Empanadas -->
+            <article>
+                <div id="empanadas" class="product-category">
+                    <h1>Empanadas</h1>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Sandwiches -->
+            <article>
+                <div id="sandwiches" class="product-category">
+                    <h1>Sandwiches</h1>
+                </div>
 
-                    <p>12 empanadas + 1 muzza</p>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div id="pizzas" class="product-category">
-                <h1>Pizzas</h1>
-            </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Hamburguesas -->
+            <article>
+                <div id="hamburguesas" class="product-category">
+                    <h1>Hamburguesas</h1>
+                </div>
 
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$520</p>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
                 </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate</p>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Morrones</h2>
-                    <p class="product-price">$630</p>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
                 </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate y morrones</p>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Jamón</h2>
-                    <p class="product-price">$630</p>
+            </article>
+            <!-- Milanesas -->
+            <article>
+                <div id="milanesas" class="product-category">
+                    <h1>Milanesas</h1>
                 </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate y Jamón</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Napolitana</h2>
-                    <p class="product-price">$630</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        muzza, salsa de tomate,tomate, ajo, perejil, provolone
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Calabresa</h2>
-                    <p class="product-price">$700</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate y longaniza</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Provolone</h2>
-                    <p class="product-price">$700</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate y provolone</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Roquefort</h2>
-                    <p class="product-price">$700</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate y roquefort.</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Jamón y Morrones</h2>
-                    <p class="product-price">$700</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate, jamón y morrones</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Brasilera</h2>
-                    <p class="product-price">$900</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate, jamón y ananá</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Champignones</h2>
-                    <p class="product-price">$830</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomat y champignones</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Pizza Nova</h2>
-                    <p class="product-price">$900</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        muzza, salsa de tomate, morron, huevo duro, jamón,
-                        palmitos y salsa golf
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Palmitos</h2>
-                    <p class="product-price">$830</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate, palmitos y salsa golf</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Veneciana</h2>
-                    <p class="product-price">$680</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, jamón y tomates</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Vegetales</h2>
-                    <p class="product-price">$780</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        muzza, salsa de tomate,champignones, cebolla, morrones,
-                        albahaca
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Cuatro quesos</h2>
-                    <p class="product-price">$730</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, roquefrt, sardo y provolone</p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Capresse</h2>
-                    <p class="product-price">$680</p>
-                </div>
-                <div class="product-description__text">
-                    <p>muzza, salsa de tomate, albahaca y provolone</p>
-                </div>
-            </div>
 
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Fugazza americana</h2>
-                    <p class="product-price">$630</p>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
                 </div>
-                <div class="product-description__text">
-                    <p>muzza, cebolla y ají</p>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
                 </div>
-            </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Minutas -->
+            <article>
+                <div class="product-category" id="minutas">
+                    <h1>Minutas</h1>
+                </div>
 
-            <div id="calzones" class="product-category">
-                <h1>Calzones</h1>
-            </div>
-
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Molestiae qui omnis rerum error
-                        corporis ratione minus sint at libero reprehenderit?
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-
-            <div id="fugazzetas" class="product-category">
-                <h1>Fugazzetas</h1>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div id="empanadas" class="product-category">
-                <h1>Empanadas</h1>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-
-            <div id="sandwiches" class="product-category">
-                <h1>Sandwiches</h1>
-            </div>
-
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-
-            <div id="hamburguesas" class="product-category">
-                <h1>Hamburguesas</h1>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-
-            <div id="milanesas" class="product-category">
-                <h1>Milanesas</h1>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product-category" id="minutas">
-                <h1>Minutas</h1>
-            </div>
-
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product-category" id="tortillas">
-                <h1>Tortillas</h1>
-            </div>
-
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-            <div class="product__text">
-                <div class="product-header__text">
-                    <h2>Muzzarella</h2>
-                    <p class="product-price">$1500</p>
-                </div>
-                <div class="product-description__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Veritatis, quae.
-                    </p>
-                </div>
-            </div>
-        </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Tortillas -->
+            <article>
+                <div class="product-category" id="tortillas">
+                    <h1>Tortillas</h1>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+                <div class="product__text">
+                    <div class="product-header__text">
+                        <h2>Muzzarella</h2>
+                        <p class="product-price">$1500</p>
+                    </div>
+                    <div class="product-description__text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Veritatis, quae.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
         <div class="botonflotante">
             <a
                 href="https://wa.me/message/#"
@@ -879,6 +910,53 @@
                 <i class="fab fa-whatsapp"></i
             ></a>
         </div>
-        <footer></footer>
+        <footer>
+
+
+           
+
+            <h2>¡Seguinos en nuestras  redes sociales!</h2>
+
+            <div class="redes-sociales">
+                <div class="instagram">
+                    <a href="https://www.instagram.com/" target="_blank"
+                        ><img src="./images/instagram.png" alt=""
+                    />
+                    <p>instagram.com/picsaX</p>
+                </a>
+                </div>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/" target="_blank"
+                        ><img src="./images/facebook.png" alt=""
+                    />
+                    <p>facebook.com/picsaX</p>
+                </a>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>☎️ 4662-0521 / 4662-0630</p>
+            <p>📱 15 3395 8980</p>
+            <p>📆 Martes a Domingo (19:30 a 00:00hs)</p>
+            <p>📍 Malaspina 1559, Hurlingham</p>
+            <p>🛵 Envíos sin cargo</p>
+            <p>💳 Efectivo / MercadoPago</p>
+            </div>
+
+            
+
+
+            <div class="creditos">
+                <span>
+                    El arte del buen comer x
+                    <a
+                        class="creditos_link"
+                        href="https://menucito.com.ar"
+                        target="_blank"
+                        >Menucito.com.ar</a
+                    >
+                    🔥
+                </span>
+            </div>
+        </footer>
     </body>
 </html>
